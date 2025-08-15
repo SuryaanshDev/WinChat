@@ -1,22 +1,27 @@
 # WinChat
 
-**WinChat** is a Windows terminal-based chat application written in C++ using Winsock.
+**WinChat** is a Windows terminal-based chat application written in C++ using Winsock.  
+It allows two or more computers on the same network to communicate in real time.
 
 ---
 
-##  Features
-- Simple chat interface in the Windows command line
-- Real-time messaging via TCP sockets
-- Concurrent handling of client/server sides
-- [List any additional features you have or plan to add]
+## Features
+- Real-time text messaging over TCP
+- Simple and lightweight console interface
+- Client–Server architecture
+- Easy setup for LAN or same Wi-Fi network
 
-##  Prerequisites
-- Windows operating system
-- C++14 or later compatible compiler (e.g., MSVC, MinGW)
-- Winsock library (usually included with Windows SDK)
+---
 
-##  Setup & Build Instructions
-1. Clone this repository:
+## Prerequisites
+- **Operating System**: Windows 7 or later
+- **Compiler**: Visual Studio (MSVC) or MinGW (C++14 or later)
+- **Library**: Winsock2 (usually included with Windows SDK)
+
+---
+
+## Installation
+1. Clone the repository:
    ```bash
    git clone https://github.com/SuryaanshDev/WinChat.git
    cd WinChat
