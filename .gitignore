@@ -11,6 +11,9 @@ x86/
 [Rr]elease/
 out/
 
+Client_W11_Server/X64/
+Client_W11_Client/X64/
+
 # Visual Studio user/IDE files
 *.vcxproj.user
 *.suo
